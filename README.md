@@ -88,6 +88,18 @@ include 'template.php';
 Then, start a PHP server in the directory containing the index.html, and go to
 it in your browser. Yay!
 
+## Final Jeopardy
+
+To setup final jeopardy, create a file similar to my-round.php using final-empty.php as a template.
+Then load it up in final.php by referencing it:
+
+```php
+$game = include 'my-final.php';
+```
+
+Finally, load up final.php in your browser and click anywhere in the screen
+to proceed from category through to thanks.
+
 ## License
 
 The MIT License (MIT)
